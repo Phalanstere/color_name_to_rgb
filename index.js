@@ -75,5 +75,4 @@ function color(name, format) {
  module.exports = exports = color;
 
 
-var c = color("gold", "hex");
-console.log( util.inspect(c));
+

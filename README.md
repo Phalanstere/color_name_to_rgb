@@ -4,7 +4,7 @@ converts an html color name to a format of your choice
 #Installation
 
 ```javascript
-	npm install color_name_to_rgb
+	npm install color_name_converter
 ```
 
 #Usage

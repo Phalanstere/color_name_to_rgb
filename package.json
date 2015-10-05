@@ -1,0 +1,32 @@
+{
+  "name": "color_name_to_rgb",
+  "version": "0.0.1",
+  "description": "\"converts html color names to a format of your choice\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Phalanstere/color_name_to_rgb.git"
+  },
+  "keywords": [
+    "color",
+    "converter",
+    "hex",
+    "rgb",
+    "rgba"
+  ],
+  "dependencies": {
+  	"css-color-names": "^0.0.2",
+  	"hex-to-rgb":   "^1.0.0"
+  	
+  },
+  
+  "author": "Phalanstere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Phalanstere/color_name_to_rgb/issues"
+  },
+  "homepage": "https://github.com/Phalanstere/color_name_to_rgb"
+}

@@ -15,30 +15,34 @@ First you require the library:
 	var color = require("color_name_to_rgb");
 ```
 
-Invoking it is easy. You may just write: 
+Invoking is easy. You just write: 
  
 ```javascript
-	output = color("gold");
+	var output = color("gold");
 ```
 
 The output will be:
 
 ```javascript
-	output = 'rgb(255,215,0)';
+	var output = 'rgb(255,215,0)';
 ```
 
-As a default the function returns a rgb string.
+As a default the function returns a **rgb string**.
 But you can define your format too:
 
 
 ```javascript
-	output = color("gold", "hex");
+	var output = color("gold", "hex");
+	// output = ''#ffd700'';
+	
+	var output = color("gold", "rgba");
+	// output 'rgb(255,215,0,1 )'
+	
+	var output = color("gold", "array");
+	// output [255, 215, 0, 1]
+	
 ```
 
-Then the output is:
 
-```javascript
-	output = ''#ffd700'';
-```
 
 Valid formats are **rgb**, **rgba**, **hex**, **array**, **object**
